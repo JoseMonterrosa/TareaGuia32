@@ -1,0 +1,5 @@
+fichero {background-color:red;}
+ficha {background-color:orange; display:block;} 
+nombre {color:yellow; display:inline;} 
+apellido {color:cyan; display:inline;}
+direccion{color:green;font-size:1cm; display:inline;}

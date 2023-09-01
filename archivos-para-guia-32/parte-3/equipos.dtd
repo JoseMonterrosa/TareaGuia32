@@ -1,0 +1,33 @@
+<!--equipos.dtd-->
+<!ELEMENT grupo (equipo+)>
+<!ATTLIST grupo universidad CDATA #FIXED "Universidad de El Salvador">
+<!ELEMENT equipo (facultad, carrera, materia, numclase, profesor, actividad, numgrupo, tema, coordinador, (integrante)3, subcoordinador, nomequipo?)>
+<!ELEMENT facultad (nombre, codigo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT carrera (nombre, codigo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)">
+<!ELEMENT materia (#PCDATA)>
+<!ELEMENT numclase (#PCDATA)>
+<!ATTLIST numclase clase (GT|GL|GD) #REQUIRED>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT actividad (nombre, porcentaje)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT porcentaje (#PCDATA)>
+<!ELEMENT numgrupo (#PCDATA)>
+<!ELEMENT tema (#PCDATA)>
+<!ELEMENT coordinador (carnet, nombres, apellidos)>
+<!ATTLIST coordinador sexo CDATA "M">
+<!ATTLIST coordinador edad CDATA #REQUIRED>
+<!ATTLIST coordinador DUI CDATA #IMPLIED>
+<!ELEMENT carnet (#PCDATA)>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT integrante (carnet, nombres, apellidos)>
+<!ATTLIST integrante sexo CDATA "M">
+<!ELEMENT carnet (#PCDATA)>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT subcoordinador (#PCDATA)>
+<!ELEMENT nomequipo (#PCDATA)>

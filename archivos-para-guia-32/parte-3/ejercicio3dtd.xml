@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grupo SYSTEM "equipos.dtd">
+<grupo>
+  <equipo>
+    <facultad>
+      <nombre>Facultad de ingenieria y arquitectura</nombre>
+      <codigo>FIA</codigo>
+    </facultad>
+    <carrera>
+      <nombre>Ingenieria en sistemas informaticos</nombre>
+      <codigo>I10515-1998</codigo>
+    </carrera>
+    <materia>Tecnicas de programacion para internet</materia>
+    <numclase clase="Laboratorio">01</numclase>
+    <profesor>Ing Balmore</profesor>
+    <actividad>
+      <nombre>Guia 32</nombre>
+      <porcentaje>10%</porcentaje>
+    </actividad>
+    <numgrupo>02</numgrupo>
+    <tema>XML bien estructurado</tema>
+    <coordinador edad="20" sexo="M">
+      <carnet>GM21007</carnet>
+      <nombres>Jose David</nombres>
+      <apellidos>Gonzalez Morataya</apellidos>
+    </coordinador>
+    <integrante sexo="M">
+      <carnet>MB21009</carnet>
+      <nombres>Jose Roberto</nombres>
+      <apellidos>Monterrosa Bonilla</apellidos>
+    </integrante>
+    <subcoordinador>Tadeo</subcoordinador>
+    <nomequipo>grupo02</nomequipo>
+  </equipo>
+</grupo>

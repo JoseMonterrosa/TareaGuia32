@@ -1,0 +1,12 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE fichero SYSTEM "fichero2c.dtd">
+<?xml-stylesheet type="text/css" href="estilo-ii-1c.css" ?>
+<!-- ejemplodtd 2c.xml SUGRUPO -->
+
+<fichero>
+	<ficha>
+		<nombre sexo="femenino" edad="17">angelina</nombre>
+		<apellido>Fernandez</apellido>
+		<direccion>ulises, 26</direccion>
+	</ficha>
+</fichero>

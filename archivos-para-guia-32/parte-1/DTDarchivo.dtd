@@ -1,0 +1,4 @@
+<!—especificación de contenido Consulte material de clases  -->
+  <!ELEMENT mensaje (titulo,texto)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT texto (#PCDATA)>

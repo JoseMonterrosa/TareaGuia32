@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fichero SYSTEM "fichero2a.dtd">
+<!-- ejerciciodtd 2a.xml SUGRUPO -->
+
+		
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <estado e="soltero">soltero</estado>
+ </ficha>
+</fichero>

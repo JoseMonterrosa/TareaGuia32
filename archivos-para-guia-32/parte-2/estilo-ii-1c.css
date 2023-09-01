@@ -1,0 +1,7 @@
+/* estilo-ii-1c.css   SUCARNET  */
+
+fichero {background-color:red;}
+ficha {background-color:orange; display:block;} 
+nombre {color:gray; display:inline;} 
+apellido {color:yellow; display:inline;}
+direccion{color:blue;font-size:1cm; display:inline;}

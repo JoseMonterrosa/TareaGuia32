@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<!DOCTYPE fichero SYSTEM "fichero2b.dtd">
+<!-- ejemplodtd 2b.xml grupo 2 -->
+
+		
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" tez="asiatica" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/fernandez, 28</direccion>
+  <DUI>12345678-9</DUI>
+  <estado>soltero</estado>
+ </ficha>
+</fichero>

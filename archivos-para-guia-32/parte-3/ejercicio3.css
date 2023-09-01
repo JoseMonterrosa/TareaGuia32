@@ -1,0 +1,47 @@
+/* Estilo para la etiqueta <grupo> */
+grupo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas <facultad> y <carrera> */
+facultad, carrera {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Estilo para el texto dentro de las etiquetas <nombre> */
+nombre {
+  font-weight: normal;
+}
+
+/* Estilo para las etiquetas <actividad> y <coordinador> */
+actividad, coordinador {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Estilo para el texto dentro de las etiquetas <porcentaje>, <carnet>, <nombres>, <apellidos>, <numclase>, <profesor>, <tema>, <integrante>, <subcoordinador> y <nomequipo> */
+porcentaje, carnet, nombres, apellidos, numclase, profesor, tema, integrante, subcoordinador, nomequipo {
+  font-weight: normal;
+}
+
+/* Estilo para el atributo 'clase' de la etiqueta <numclase> */
+numclase[clase] {
+  font-style: italic;
+}
+
+/* Estilo para el atributo 'edad' de la etiqueta <coordinador> */
+coordinador[edad] {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Estilo para el atributo 'sexo' de las etiquetas <coordinador> y <integrante> */
+coordinador[sexo], integrante[sexo] {
+  font-weight: normal;
+  font-style: italic;
+}

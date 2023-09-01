@@ -1,5 +1,5 @@
 <!--equipos.dtd-->
-<!ELEMENT grupo (equipo+)>
+<!ELEMENT grupo (equipo+, a)>
 <!ATTLIST grupo universidad CDATA #FIXED "Universidad de El Salvador">
 <!ELEMENT equipo (facultad, carrera, materia, numclase, profesor, actividad, numgrupo, tema, coordinador, (integrante)3, subcoordinador, nomequipo?)>
 <!ELEMENT facultad (nombre, codigo)>
@@ -31,3 +31,6 @@
 <!ELEMENT apellidos (#PCDATA)>
 <!ELEMENT subcoordinador (#PCDATA)>
 <!ELEMENT nomequipo (#PCDATA)>
+<!ATTLIST a xmlns CDATA #IMPLIED>
+<!ATTLIST a href CDATA #IMPLIED>
+<!ATTLIST a class CDATA #IMPLIED>

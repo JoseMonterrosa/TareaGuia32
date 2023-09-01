@@ -1,5 +1,5 @@
 <!—fichero4-4.dtd -->
-<!ELEMENT equipo (fichaJugador+)>
+<!ELEMENT equipo (fichaJugador+, a)>
 <!ELEMENT fichaJugador (nombre, apellido, posicion, nacionalidad?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
@@ -9,3 +9,6 @@
 <!ELEMENT apellido (#PCDATA)>
 <!ELEMENT posicion (#PCDATA)>
 <!ELEMENT nacionalidad (#PCDATA)>
+<!ATTLIST a xmlns CDATA #IMPLIED>
+<!ATTLIST a href CDATA #IMPLIED>
+<!ATTLIST a class CDATA #IMPLIED>	

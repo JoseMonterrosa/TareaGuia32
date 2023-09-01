@@ -2,7 +2,7 @@
 <!-- ejemplodtd1.xml grupo 2 -->
 <!DOCTYPE fichero 
 [
-		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT fichero (ficha+, a)>
 		<!ELEMENT ficha (nombre, apellido, direccion*, DUI, estado)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
@@ -12,6 +12,9 @@
 		<!ELEMENT direccion (#PCDATA)>
 		<!ELEMENT DUI (#PCDATA)>		
 		<!ELEMENT estado (#PCDATA) >
+		<!ATTLIST a xmlns CDATA #IMPLIED>
+    	<!ATTLIST a href CDATA #IMPLIED>
+    	<!ATTLIST a class CDATA #IMPLIED>
 		]>
 		
 <fichero>
@@ -22,4 +25,7 @@
   <DUI>12345678-9</DUI>
   <estado>soltero</estado>
  </ficha>
+
+ <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" class="keychainify-checked">INDEX</a>
+
 </fichero>

@@ -1,7 +1,7 @@
 <!—fichero2b.dtd -->
 <!DOCTYPE fichero 
 [
-		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT fichero (ficha+, a)>
 		<!ELEMENT ficha (nombre, apellido, direccion*, DUI, estado)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
@@ -11,4 +11,7 @@
 		<!ELEMENT direccion (#PCDATA)>
 		<!ELEMENT DUI (#PCDATA)>		
 		<!ELEMENT estado (#PCDATA) >
+		<!ATTLIST a xmlns CDATA #IMPLIED>
+    	<!ATTLIST a href CDATA #IMPLIED>
+    	<!ATTLIST a class CDATA #IMPLIED>
 		]>

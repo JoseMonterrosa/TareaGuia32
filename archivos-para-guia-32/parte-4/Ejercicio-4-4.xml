@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo4-4.css" ?>
+<!DOCTYPE fichero SYSTEM "fichero4-4.dtd">
+<equipo>
+ <fichaJugador>
+  <nombre sexo="masculino" edad="22" estatura="194" pero="85">
+         virgil 
+  </nombre>
+  <apellido>van dijk</apellido>
+  <posicion>defensa</posicion>
+  <nacionalidad>neerlandés</nacionalidad>
+</fichaJugador>
+ <fichaJugador>
+  <nombre sexo="masculino" edad="38" estatura="174" pero="80">
+         Leonel Andres 
+  </nombre>
+  <apellido>Messi</apellido>
+  <posicion>delantero</posicion>
+  <nacionalidad>argentino</nacionalidad>
+</fichaJugador>
+</equipo>

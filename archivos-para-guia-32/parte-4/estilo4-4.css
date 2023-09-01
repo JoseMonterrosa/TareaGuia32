@@ -1,0 +1,6 @@
+equipo {background-color:gray;}
+fichaJugador {background-color:IndianRed; display:block;} 
+nombre {color:yellow; font-size:1cm; display:inline;} 
+apellido {color:Coral;font-size:1cm; display:inline;}
+posicion{color:Gold;font-size:1cm; display:inline;}
+nacionalidad{color:FireBrick;font-size:1cm; display:inline;}
